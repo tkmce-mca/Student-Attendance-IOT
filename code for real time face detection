@@ -1,0 +1,21 @@
+import cv
+import matplotlib.pyplot as plt
+import dlib
+from imutils import face_utils
+font = cv.FONT_HERSHEY_SIMPLEX
+cascPath = "/usr/local/lib/python3.7/site-packages/cv/data/haarcascade_frontalface_default.xml"
+eyePath = "/usr/local/lib/python3.7/site-packages/cv/data/haarcascade_eye.xml"
+smilePath = "/usr/local/lib/python3.7/site-packages/cv/data/haarcascade_smile.xml"
+faceCascade = cv.CascadeClassifier(cascPath)
+eyeCascade = cv.CascadeClassifier(eyePath)
+smileCascade = cv.CascadeClassifier(smilePath)
+gray = cv.imread('face_detect_test.jpeg', 0)
+plt.figure(figsize=(12,8))
+plt.imshow(gray, cmap='gray')
+plt.show()
+faces = faceCascade.detectMultiScale(gray,scaleFactor=1.1,minNeighbors=5,flags=cv.CASCADE_SCALE_IMAGE)
+for (x, y, w, h) in faces:
+    cv.rectangle(gray, (x, y), (x+w, y+h), (255, 255, 255), 3)
+    plt.figure(figsize=(12, 8))
+    plt.imshow(gray, cmap='gray')
+    plt.show()
