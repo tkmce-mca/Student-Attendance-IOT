@@ -17,7 +17,7 @@ A guide to face detection in python
    
    Install cmake
    Install dlib
-	Install packages for Face Detection
+   Install packages for Face Detection
     
 	// commands
 	pip install opencv-python
