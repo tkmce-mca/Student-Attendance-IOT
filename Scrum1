@@ -1,0 +1,20 @@
+# LEVEL OF PROJECT
+
+We have gone through different face recognition algorithms and we are trying to work with it.
+We are using LBPH algorithm
+We are trying to create a dataset and and add images from the online video stream
+
+# PLANS FOR CURRENT AND FUTURE
+
+Currently we are working to extract images from live video stream and load it into the database.
+After that in future we will be creating a simple web application for including new admissions and a simple android application for invoking an outside webcam
+
+# ROLE
+
+FRONT END: pycharm and open cv
+BACK END: MYSQL
+
+# OPEN ISSUES
+
+We are facing a problem in importig the libraries for face recognition(open cv,matlib etc)
+
