@@ -2,7 +2,7 @@
 
 We have gone through different face recognition algorithms and we are trying to work with it.
 We are using LBPH algorithm
-We are trying to create a dataset and and add images from the online video stream
+We are trying to create a dataset andadd images from the online video stream
 
 **PLANS FOR CURRENT AND FUTURE**
 
@@ -11,10 +11,10 @@ After that in future we will be creating a simple web application for including 
 
 **ROLE**
 
-FRONT END: pycharm and open cv
+FRONT END: Anaconda and open cv
 BACK END: MYSQL
 
  **OPEN ISSUES**
 
-We are facing a problem in importig the libraries for face recognition(open cv,matlib etc)
+We are facing a problem in importing the libraries for face recognition(open cv,matlib etc)
 
