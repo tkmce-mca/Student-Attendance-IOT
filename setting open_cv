@@ -1,0 +1,23 @@
+
+//site referred
+//steps for installing open cv(referred site https://www.learnopencv.com/install-opencv-3-and-dlib-on-windows-python-only/)
+
+conda create --name opencv-env python=3.7
+activate opencv-env
+
+
+pip install numpy scipy matplotlib scikit-learn jupyter
+pip install opencv-contrib-python
+
+python
+import cv2
+cv2.__version__                 //'4.1.0'
+
+LOCATION( where cv stored)
+python
+import cv2
+ print(cv2.__file__)
+C:\ProgramData\Anaconda3\Lib\site-packages\cv2\cv2.cp37-win_amd64.pyd    
+
+
+
