@@ -1,8 +1,7 @@
 **LEVEL OF PROJECT**
 
-We have gone through different face recognition algorithms and we are trying to work with it.
-We are using LBPH algorithm
-We are trying to create a dataset andadd images from the online video stream
+We are using CNN algorithm and some of LBPH algorithm
+We are done with face detection from an image shown.
 
 **PLANS FOR CURRENT AND FUTURE**
 
@@ -16,5 +15,5 @@ BACK END: MYSQL
 
  **OPEN ISSUES**
 
-We are facing a problem in importing the libraries for face recognition(open cv,matlib etc)
-
+We are facing a problem in importing the libraries for face recognition(open cv,matlib etc) and extracting images from a live video stream.
+The connection with the webcam is perfect but not able to scan images.
